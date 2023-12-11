@@ -190,12 +190,12 @@ color: #2E2F42;
     display: flex;
     gap: 24px;
     justify-content: center;
+    width: calc((100% - 72px) / 4);
 }
 
  .list{
     background-color: #F4F4FD;
-    width: calc((100% - 72px) / 4);
- }
+}
 
  .title {
     background-color: #F4F4FD;
