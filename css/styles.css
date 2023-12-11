@@ -26,8 +26,11 @@ img{
     margin-right: auto;
 }
 
+.header-one{
+  border-bottom: 1px solid #e7e9fc;   
+}
+
 .header-container {
-    border-bottom: 1px solid #e7e9fc;
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -60,8 +63,8 @@ color: #2E2F42;
     margin: 0 auto;
     font-style: normal;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    gap: 40px;
+    margin-right: 0 auto;
 }
 
 .header-nav {
@@ -71,9 +74,12 @@ color: #2E2F42;
     line-height: 1.5em;
     letter-spacing: 0.32px;
     text-decoration: none;
-    gap: 40px;
-    margin-right: 0;
+    padding: 24px 0;
+    display: flex;
+    font-size: 16px;
 }
+
+
 
 .header-nav :last-child{
     margin-right: 0;
@@ -107,6 +113,7 @@ color: #2E2F42;
 
 .header-container .header-navigation {
     display: flex;
+    gap: 40px;
 }
 
  /*Unique content*/
