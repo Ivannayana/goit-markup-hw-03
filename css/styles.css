@@ -140,7 +140,7 @@ color: #2E2F42;
     letter-spacing: 1.12px;
     margin: auto;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px
  }
 
  .section-button {
@@ -194,7 +194,7 @@ color: #2E2F42;
 
  .list{
     background-color: #F4F4FD;
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
  }
 
  .title {
