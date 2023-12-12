@@ -26,6 +26,8 @@ img{
     margin-right: auto;
 }
 
+/* Header*/
+
 .header-one{
   border-bottom: 1px solid #e7e9fc;   
 }
@@ -169,6 +171,8 @@ color: #2E2F42;
     background-color: #404bbf
  }
 
+/* Advantages */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -226,6 +230,7 @@ color: #2E2F42;
         height: 72px
  }
 
+/* Our Team */
 
 .team {
     background-color: #F4F4FD;
@@ -239,6 +244,7 @@ color: #2E2F42;
 
 .item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     
     
 }
@@ -256,13 +262,13 @@ color: #2E2F42;
  }
 
  .item-row{
-    border-radius: 0px 0px 4px 4px;
     display: flex;
     gap: 24px;
  }
 
  .page{
     margin-bottom: 8px;
+    padding: 32px 0;
  }
 
  .page-title-name {
@@ -287,6 +293,8 @@ background-color: #FFFFFF;
    text-align: center;
    margin-bottom: 8px;
  }
+
+/* Our Portfolio */
 
 .portfolio { 
 background-color: #FFFFFF;
@@ -346,7 +354,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.32px;
 }
 
- 
+ /* Footer */
 
 .footer {
     background: #2E2F42;
