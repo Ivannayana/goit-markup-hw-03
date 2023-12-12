@@ -321,6 +321,9 @@ background-color: #FFFFFF;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    padding: 0;
+    margin: 0;
+
 
 }
 
@@ -330,7 +333,7 @@ background-color: #FFFFFF;
 }
 
 .portfolio-div{
-    border: 1px solid #e7e7fe;
+    border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
     display: flex;
@@ -346,6 +349,7 @@ background-color: #FFFFFF;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .portfolio-title-text {
