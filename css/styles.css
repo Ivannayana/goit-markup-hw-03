@@ -256,6 +256,7 @@ color: #2E2F42;
  }
 
  .item-row{
+    border-radius: 0px 0px 4px 4px;
     display: flex;
     gap: 24px;
  }
